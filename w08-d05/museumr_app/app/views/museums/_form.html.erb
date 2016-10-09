@@ -1,0 +1,57 @@
+<%= form_for @museum do |f| %>
+
+	<%= f.label :name %><br>
+	<%= f.text_field :name %><br><br>
+
+	<%= f.label :description %><br>
+	<%= f.text_field :description %><br><br>	
+
+	<%= f.label :address %><br>
+	<%= f.text_field :address %><br><br>	
+
+	<%= f.label :img_url %><br>
+	<%= f.text_field :img_url %><br><br>
+
+	<%= f.submit %>
+
+<% end %>
+
+<br>
+<br>
+
+<% if edit %>
+	<%= form_for @museum, method: 'delete' do |f| %>
+		<%= f.submit "Delete museum" %>
+	<% end %>
+
+	<br>
+	<br>
+
+	<form action="/museums/<%= @museum.id %>/add_artist" method="post">
+    <input type="hidden" name="_method" value="put">
+    <select name="artist_id">
+      <% @artists.each do |artist| %>
+    		<% unless @museum.artists.include? artist %>
+        	<option value="<%= artist.id %>"><%= artist.name %></option>
+        <% end %>	
+      <% end %>
+    </select>
+    <input type="submit" value="Add Artist">
+  </form>
+
+	<br>
+	<br>
+
+  <form action="/museums/<%= @museum.id %>/remove_artist" method="post">
+    <input type="hidden" name="_method" value="put">
+    <select name="artist_id">
+      <% @artists.each do |artist| %>
+    		<% if @museum.artists.include? artist %>
+        	<option value="<%= artist.id %>"><%= artist.name %></option>
+        <% end %>	
+      <% end %>
+    </select>
+    <input type="submit" value="Remove Artist">
+  </form>
+
+<% end %>

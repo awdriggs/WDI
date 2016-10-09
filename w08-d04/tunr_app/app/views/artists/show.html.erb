@@ -1,0 +1,5 @@
+<%= render @artist %>
+
+<% @artist.songs.each do |song| %>
+	<%= render partial: 'songs/song', locals: {song: song, player: true, edit: false, playlist: false} %>
+<% end %>

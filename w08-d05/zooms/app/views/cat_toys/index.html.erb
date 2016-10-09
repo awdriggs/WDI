@@ -1,0 +1,14 @@
+<h2>Cat Toys</h2>
+<%= link_to 'New Toy', new_cat_toy_path %>
+
+<% @cat_toys.each do |cat_toy| %>
+	<hr>
+	<h3><%= link_to cat_toy.name, cat_toy %></h3>
+	
+<p>Owner: <%= link_to cat_toy.toyable.name, "/#{cat_toy.toyable_type.downcase}s/#{cat_toy.toyable.id}" %></p>
+
+	<p>Type: <%= cat_toy.toyable_type %></p> 
+
+
+<% end %>
+

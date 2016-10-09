@@ -1,0 +1,14 @@
+<h2>lions</h2>
+<%= link_to 'New Lion', new_lion_path %>
+
+<% @lions.each do |lion| %>
+	<hr>
+	<h3><%= link_to lion.name, lion %></h3>
+	<p>Birthdate: <%= lion.birthdate %></p>
+	<p>Weight: <%= lion.weight %> lbs</p> 
+	<p>Bio: <%= lion.about %></p>
+	<p>Health: <%= lion.health %>
+	<p>Health Notes: <%= lion.health_notes%></p>
+
+
+<% end %>

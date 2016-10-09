@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"turn",
+				"turnDisplay"
+			],
+			[
+				"Tu",
+				"turnDisplay"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"new",
+				"newOwner"
+			],
+			[
+				"lin",
+				"lines"
+			],
+			[
+				"ne",
+				"newStations"
+			],
+			[
+				"user",
+				"userLine"
+			],
+			[
+				"view",
+				"viewEditQuit"
+			],
+			[
+				"vie",
+				"viewEditQuit"
+			],
+			[
+				"vi",
+				"viewEditQuit"
+			],
+			[
+				"v",
+				"viewEditQuit"
+			],
+			[
+				"arr",
+				"arrayOfStationNames"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"li",
+				"listStations"
+			],
+			[
+				"line",
+				"lineName"
+			],
+			[
+				"add",
+				"addLine"
+			],
+			[
+				"stops",
+				"stopsBtwnStations"
+			],
+			[
+				"cash",
+				"cashRegister"
+			],
+			[
+				"ge",
+				"getTempterature"
+			],
+			[
+				"sum",
+				"sumOfSquares"
+			],
+			[
+				"squ",
+				"squareOfSum"
+			],
+			[
+				"long",
+				"longestWord"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"t",
+				"telephone"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"al",
+				"alertThree"
+			],
+			[
+				"lines",
+				"lines"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"uer",
+				"userChoice"
+			],
+			[
+				"get",
+				"getTrainIndex"
+			],
+			[
+				"train",
+				"trainIndex"
+			],
+			[
+				"promp",
+				"promptForLine"
+			],
+			[
+				"C",
+				"Celsius"
+			],
+			[
+				"res",
+				"searchResult"
+			],
+			[
+				"use",
+				"userStation"
+			],
+			[
+				"sear",
+				"searchResult"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"S",
+				"Square"
+			],
+			[
+				"fi",
+				"firstNum"
+			],
+			[
+				"se",
+				"secondNum"
+			],
+			[
+				"desired",
+				"desiredTemp"
+			],
+			[
+				"current",
+				"currentTemp"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tictactoe.html",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/driggers/wdi/WDI_skywalker/w02/d02/Adam_Driggers/ex/app.js",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d02/Adam_Driggers/ex/styles.css",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d01/Adam_Driggers/hw/app.js",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/Adam_Driggers/hw/qa.md",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d01/Adam_Driggers/hw/onchange.js",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d01/Adam_Driggers/hw/onchange.html",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d02/Adam_Driggers/ex/app.js",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d02/Adam_Driggers/ex/styles.css",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d02/Adam_Driggers/ex/tictactoe.html",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d02/Adam_Driggers/brook_and_lyn_starter/index.html",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d02/Adam_Driggers/brook_and_lyn_starter/css/style.css",
+		"/Users/driggers/wdi/WDI_skywalker/w02/d02/Adam_Driggers/brook_and_lyn_starter/images/press-nbcnewyork.gif",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d02/Adam_Driggers/brook_and_lyn_starter/css/normalize.css",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/INSTRUCTOR/d01a-basic_html_css_specificity.html",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/INSTRUCTOR/d01a-positioning.html",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/INSTRUCTOR/d01a-floating2-and-box-model.html",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/INSTRUCTOR/d01a-floating.html",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/ASSIGNMENT/ipod_classic.md",
+		"/Users/driggers/WDI/WDI_skywalker/w02/d01/Adam_Driggers/ex/ex",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d05/Adam_Driggers/ex/playground.js",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d05/Adam_Driggers/ex/index.html",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d04/Adam_Driggers/ex/index.html",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d04/Adam_Driggers/hw/hw_d04.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d04/Adam_Driggers/ex/playground.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d02/Adam_Driggers/HW/d02.md",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/Adam_Driggers/hw/app.js",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/Adam_Driggers/ex/app.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d03/Adam_Driggers/hw/app.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d04/Adam_Driggers/ex/morning_ex.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d04/Adam_Driggers/ex/morning_ex2.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d03/Adam_Driggers/ex/index.html",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/Adam_Driggers/hw/index.html",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/ASSIGNMENT/d03_repshw.md",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/Adam_Driggers/ex/index.html",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d03/Adam_Driggers/ex/app.js",
+		"/Users/driggers/WDI/WDI_skywalker/w01/d03/ASSIGNMENT/README.md",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d02/Adam_Driggers/HW/index.html",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d02/Adam_Driggers/HW/train_object.js",
+		"/Users/driggers/wdi/WDI_skywalker/w01/d02/Adam_Driggers/HW/d02.js",
+		"/Users/driggers/Desktop/calculator.js",
+		"/Users/driggers/gd/WEB/WDI/week1_random/bar_check.js",
+		"/Users/driggers/gd/WEB/WDI/week1_random/tempConverter.js",
+		"/Users/driggers/Desktop/homework/app.js",
+		"/Users/driggers/gd/WEB/WDI/homework/app.js",
+		"/Users/driggers/Desktop/homework/index.html",
+		"/Users/driggers/Desktop/ga_assessment1",
+		"/Users/driggers/Desktop/index.html",
+		"/Users/driggers/Desktop/ac.html",
+		"/Users/driggers/Desktop/ac.js",
+		"/Users/driggers/Desktop/script.js",
+		"/Users/driggers/Desktop/rockpaperscissors.js",
+		"/Users/driggers/gd/WEB/diya/styles.scss",
+		"/Users/driggers/gd/WEB/diya/index.html",
+		"/Users/driggers/gd/WEB/Diya2/css/main.css",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"block",
+			"button",
+			"command+t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tictactoe.html",
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles.css",
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.509436456611,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true
+}

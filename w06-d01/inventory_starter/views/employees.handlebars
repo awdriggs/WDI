@@ -1,0 +1,18 @@
+<div id="container">
+	<h1><a href="/employees/new">New Employee</a></h1>
+	{{!-- CREATE A DIV FOR EACH EMPLOYEE look below to see how it should look --}}
+	{{#each employees}}
+		<div class = 'employee'>
+			<h2>First Name : {{first_name}}</h2>
+			<h2>Manufacturer : {{lastname}}</h2>
+			<h4># of hours per week : {{hours}}</h4>
+			<h4>Full time? : {{full_time}}</h4>
+			<h4>Salary : ${{salary}}/hr</h4>
+			<a href="/employee/edit/{{id}}">Edit</a>
+			<form action="/employees/{{id}}" method="POST">
+				<input type="hidden" name="_method" value="DELETE">
+				<input type="submit" value="delete">
+			</form>
+		</div>
+	{{/each}}
+</div>

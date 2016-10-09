@@ -1,0 +1,14 @@
+<h1 id="home">Welcome to the paintings page</h1>
+
+<% @paintings.each do |painting| %>
+	<div class="single box">
+		<%= link_to painting.title, painting_path(painting) %><br><br>
+		<%= link_to image_tag(painting.img_url, :class => "painting"), painting_path(painting) %> <br>
+		<%= link_to painting.artist.name, artist_path(painting.artist) %>
+		<p><%= painting.year_made %></p>
+	</div>
+<% end %>
+
+<div class="nav">
+	<%= link_to "Add a new painting", new_painting_path %>
+</div>

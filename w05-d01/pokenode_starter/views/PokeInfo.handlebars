@@ -1,0 +1,27 @@
+<div id="solo-pokemon">
+	<div id="poke-info">
+		<h3>{{name}}</h3>
+		<img src='{{img}}'></img>
+		<p>Classification: {{misc.classification}}</p>
+
+		<p>Type:
+		{{#each type}}
+		{{this}}
+		{{/each}}
+		</p>
+
+		<p>HP: {{stats.hp}}</p>
+		<p>Attack: {{stats.attack}}</p>
+		<p>Defense: {{stats.defense}}</p>
+
+		<p>Moves: 
+		{{#each moves.level}}
+		{{this.name}},
+		{{/each}}
+		</p>
+
+		<p>Happiness: {{misc.happiness}}<p>
+		<p>Height: {{misc.height}}</p>
+
+	</div> <!-- end of poke-info -->
+</div> <!-- end solo pokemon -->

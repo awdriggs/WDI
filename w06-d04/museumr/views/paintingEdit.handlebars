@@ -1,0 +1,45 @@
+<form action="/paintings/{{painting.id}}" method="POST" style="clear: left; text-align: center;" id="edit">
+	<input type="hidden" name="_method" value="PUT">
+	
+	Title<br>
+	<label for="title">
+		<input type="text" name="title" value='{{painting.title}}'>
+	</label><br>
+	Image URL<br>
+	<label for="img_url">
+		<input type="text" name="img_url" value='{{painting.img_url}}'>
+	</label><br>
+	Year Made<br>
+	<label for="nationality">
+		<input type="text" name="year_made" value="{{painting.year_made}}">
+	</label><br>
+	<select name="artist_id">
+		{{#each artists}}
+		<option value="{{this.id}}">{{this.name}}</option>
+		{{/each}}
+	</select><br>
+	<input type="submit" value="Save Edit">
+</form>
+
+<br>
+
+<form action="/paintings/{{painting.id}}" method="POST" style="clear: left; text-align: center;">
+	<input type="hidden" name="_method" value="DELETE">
+	<button type="submit">DELETE Painting</button>
+</form>
+
+<p id="artist_id" style="visibility: hidden;">{{painting.artist_id}}</p>
+
+<script>
+
+var index = document.getElementById('artist_id').textContent
+var list = document.getElementsByTagName('option')
+
+//loop through options
+for(var i=0; i<list.length; i++){
+	if(list[i].value == index){
+		list[i].setAttribute("selected", "");
+	}
+}
+
+</script>

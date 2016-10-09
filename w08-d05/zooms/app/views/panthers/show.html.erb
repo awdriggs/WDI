@@ -1,0 +1,10 @@
+<hr>
+<h3><%= @panther.name %></h3>
+<p>Claw Length: <%= @panther.claw_length %></p>
+<p><%= link_to 'Edit', edit_panther_path %></p>
+<!-- Cat Town Display -->
+<hr>
+<h2>Cat Toys</h2>
+  <% @panther.cat_toys.each do |cat_toy| %>
+  <%= cat_toy.name %>
+  <% end %> 

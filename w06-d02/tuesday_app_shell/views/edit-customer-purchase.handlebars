@@ -1,0 +1,23 @@
+
+
+<h1>Edit Customer Purchase</h1>
+
+<form action="/update-customer-purchase/{{id}}" method="POST">
+	Customer: <select name="customer">
+		{{#each customers}}
+			<option value="{{id}}">{{name}} id:{{id}}</option>
+		{{/each}}
+	</select> <br>
+
+	Sauce: <select name="sauce">
+		{{#each sauces}}
+			<option value="{{id}}">{{sauce_name}} ${{price}}</option>
+		{{/each}}
+	</select> <br>
+
+	<input type="text" name="quantity" value="{{purchase.quantity}}"> <br>
+
+	<input type="submit" value="submit">
+
+</form>
+

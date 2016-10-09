@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS locations CASCADE;
+DROP TABLE IF EXISTS classes CASCADE;
+DROP TABLE IF EXISTS students CASCADE;
+
+CREATE TABLE locations(
+  id SERIAL PRIMARY KEY,
+  address VARCHAR(255)
+);
+
+CREATE TABLE classes(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  location_id INTEGER
+);
+
+CREATE TABLE students(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  class_id INTEGER
+);

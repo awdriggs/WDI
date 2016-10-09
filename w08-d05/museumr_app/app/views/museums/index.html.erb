@@ -1,0 +1,14 @@
+<h1 id="home">Welcome to the museums page</h1>
+
+<% @museums.each do |museum| %>
+	<div class="single box">
+		<h3><%= link_to museum.name, museum_path(museum) %></h3>
+		<%= link_to image_tag(museum.img_url, class: 'painting'), museum_path(museum) %>
+		<p><%= museum.description %></p>
+		<p><%= museum.address %></p>
+	</div>
+<% end %>
+
+<div class="nav">
+	<%= link_to "Add a new museum", new_museum_path %>
+</div>

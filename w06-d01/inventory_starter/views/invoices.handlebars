@@ -1,0 +1,14 @@
+<div id="container">
+	<h1>Invoices</h1>
+	{{!-- create a div for each invoice --}}
+	{{#each invoices}}
+	
+	<div class="invoice">
+		<h2>Invoice #{{id}}</h2>
+		<h2>Product Sold : {{product}}</h2>
+		<h2>Quantity Sold : {{quantity}}</h2>
+		<h2>Date Sold : {{date_sold}}</h2>
+		<h2>Total : ${{price}}</h2>
+	</div>
+	{{/each}}
+</div>

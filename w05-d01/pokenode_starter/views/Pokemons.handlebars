@@ -1,0 +1,22 @@
+<div id="results-container">
+	
+	{{#each array}}
+		<div class="result">
+		<h3>{{this.name}}</h3>
+		<img src='{{this.img}}' name='{{this.name}}' onclick="myFunction()"></img>
+		</div> <!-- end result -->
+	{{/each}}
+</div> 
+
+<script>
+function myFunction() {
+ 	var name = event.target.name;  
+    //alert(name);
+    //debugger;
+
+    var searchField = $('#searchByName')
+    searchField[0].value = name;
+    $('#searchButton').click();
+
+   }
+</script>

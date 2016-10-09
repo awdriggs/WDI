@@ -1,0 +1,17 @@
+
+<%= form_for(@pad) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :bro_id, class: 'control-label' %><br>
+    <%= f.select :bro_id, @bros.collect{|b| [ "#{b.name} - #{b.bro_name}", b.id ]}, { :selected => @pad.bro_id } %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

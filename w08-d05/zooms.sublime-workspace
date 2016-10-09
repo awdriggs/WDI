@@ -1,0 +1,1120 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paw",
+				"password_field"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"artist",
+				"artist"
+			],
+			[
+				"ar",
+				"artist_params"
+			],
+			[
+				"all",
+				"all	all? { |e| .. }"
+			],
+			[
+				"nationa",
+				"Nationality"
+			],
+			[
+				"pla",
+				"playlist"
+			],
+			[
+				"pl",
+				"Playlist"
+			],
+			[
+				"un",
+				"unsorted_array"
+			],
+			[
+				"word",
+				"word"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"app",
+				"appointment"
+			],
+			[
+				"pat",
+				"patient"
+			],
+			[
+				"patients",
+				"patients_path"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"H",
+				"Helvetica"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"A",
+				"ActiveRecord"
+			],
+			[
+				"count",
+				"countInArray"
+			],
+			[
+				"wor",
+				"wordCount"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"tim",
+				"timestamps"
+			],
+			[
+				"in",
+				"Integer"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"gu",
+				"guessed_letters"
+			],
+			[
+				"gues",
+				"guesses"
+			],
+			[
+				"guess",
+				"guessed_letters"
+			],
+			[
+				"new",
+				"new_title"
+			],
+			[
+				"includ",
+				"include_year"
+			],
+			[
+				"ne",
+				"new_age"
+			],
+			[
+				"phrase",
+				"phrase"
+			],
+			[
+				"up",
+				"uppercased"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"colr",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"winner",
+				"winner_id"
+			],
+			[
+				"top",
+				"topic_data"
+			],
+			[
+				"ended",
+				"endedTopic"
+			],
+			[
+				"wag",
+				"wagersRanked"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"fi",
+				"findWithCompare"
+			],
+			[
+				"current",
+				"currentUser"
+			],
+			[
+				"curre",
+				"currentUser"
+			],
+			[
+				"pa",
+				"painting"
+			],
+			[
+				"com",
+				"compareRight"
+			],
+			[
+				"art",
+				"artist_id"
+			],
+			[
+				"paint",
+				"paintings"
+			],
+			[
+				"paintings",
+				"paintingsWithArtist"
+			],
+			[
+				"fo",
+				"formData"
+			],
+			[
+				"a",
+				"artist_id"
+			],
+			[
+				"find",
+				"findRelations"
+			],
+			[
+				"pai",
+				"paintings"
+			],
+			[
+				"painting",
+				"painting"
+			],
+			[
+				"me",
+				"methodOverride"
+			],
+			[
+				"express",
+				"express"
+			],
+			[
+				"pic",
+				"picPainting1"
+			],
+			[
+				"van",
+				"vangogh"
+			],
+			[
+				"pain",
+				"painting_photo"
+			],
+			[
+				"basquiat",
+				"Basquiat"
+			],
+			[
+				"num",
+				"numArray"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"exp",
+				"exphbs"
+			],
+			[
+				"ed",
+				"edit-customer-purchase"
+			],
+			[
+				"cus",
+				"customer_emails"
+			],
+			[
+				"sauce",
+				"sauce_id"
+			],
+			[
+				"edit",
+				"edit-sauce"
+			],
+			[
+				"customer_",
+				"customer_purchases"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"conne",
+				"connectionString"
+			],
+			[
+				"sau",
+				"sauce_id"
+			],
+			[
+				"cu",
+				"customer_id"
+			],
+			[
+				"resu",
+				"result_s"
+			],
+			[
+				"color",
+				"color-field"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ad",
+				"adoption_fee"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"emp",
+				"employee"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"Pro",
+				"product"
+			],
+			[
+				"e",
+				"employees"
+			],
+			[
+				"conn",
+				"connectionString"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"con",
+				"connectionString"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"ex",
+				"express"
+			],
+			[
+				"v",
+				"VARCHAR"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"cla",
+				"classmates"
+			],
+			[
+				"value",
+				"value3"
+			],
+			[
+				"poke",
+				"pokemons"
+			],
+			[
+				"sea",
+				"searchByName"
+			],
+			[
+				"R",
+				"Reagan"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"se",
+				"searchTerm"
+			],
+			[
+				"is",
+				"isPerfectSquare"
+			],
+			[
+				"ru",
+				"returnAmt"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"magic",
+				"magicArray"
+			],
+			[
+				"mag",
+				"magicArray"
+			],
+			[
+				"image",
+				"image_area"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"random",
+				"randomIndex"
+			],
+			[
+				"type",
+				"typeArray"
+			],
+			[
+				"this",
+				"thisGenus"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ran",
+				"randomNum"
+			],
+			[
+				"serve",
+				"serveUP"
+			],
+			[
+				"UR",
+				"encodeURI"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"act",
+				"actorsList"
+			],
+			[
+				"data",
+				"dataObject"
+			],
+			[
+				"da",
+				"dataObject"
+			],
+			[
+				"get",
+				"getSymbol"
+			],
+			[
+				"st",
+				"stringSuite"
+			],
+			[
+				"chec",
+				"checkedValue"
+			],
+			[
+				"g",
+				"grey"
+			],
+			[
+				"lin",
+				"letter-spacing"
+			],
+			[
+				"bal",
+				"background-color"
+			],
+			[
+				"dealer",
+				"dealerResult"
+			],
+			[
+				"deal",
+				"dealerResult"
+			],
+			[
+				"dea",
+				"dealerResult"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"rails ",
+				"Snippet: Ruby/Rails Method"
+			],
+			[
+				"rails",
+				"Snippet: Ruby/Rails Method"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"json",
+				"Pretty JSON: Validate"
+			],
+			[
+				"pret",
+				"Pretty JSON: JSON 2 XML"
+			],
+			[
+				"js",
+				"Pretty JSON: Validate"
+			],
+			[
+				"",
+				"Javascript Beautify"
+			],
+			[
+				"SQL",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"PACKAGE CONTROL",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro:in",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: int",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package man",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Javascript Beautify"
+			],
+			[
+				"java",
+				"Javascript Beautify"
+			],
+			[
+				"ja",
+				"Javascript Beautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 542.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/homework.md",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731180032_create_lions.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731180055_create_lion_tamers.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/app/models/cat_toy.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/app/models/lion.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/app/models/lion_tamer.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/seeds.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/app/models/panther.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/app/models/car_toy.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731180330_create_join_table_lion_tamer_lion.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731181924_create_panthers.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731182001_create_cat_toys.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/zooms/db/migrate/20150731182328_add_toyable_to_cat_toys.rb",
+		"/Users/driggers/.bash_profile",
+		"/Users/driggers/wdi/WDI_skywalker/.git/MERGE_MSG",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/controllers/users_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/views/users/show.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/views/artists/_artist.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/views/layouts/application.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/views/users/new.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/w08_assessment.md",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d05/Adam_Driggers/assessment_code.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/controllers/artists_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/appointments/_form.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/artists/index.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/controllers/museums_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/artists/show.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/artists/edit.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/assets/stylesheets/application.css",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/artists/new.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/artists/_form.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/controllers/paintings_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/layouts/application.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/views/layouts/application.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/vanwilder/app/views/bros/_form.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/config/routes.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/models/artist.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/models/painting.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/app/models/museum.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/db/migrate/20150730225939_create_paintings.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/db/migrate/20150730225858_create_artists.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/db/migrate/20150730225927_create_museums.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/museumr_app_starter/db/migrate/20150730230238_create_join_table.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/controllers/application_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/controllers/artists_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/controllers/songs_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/controllers/sessions_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/models/playlist.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/config/routes.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/controllers/patients_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/seeds.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/models/artist.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/models/songs.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/migrate/20150730141817_create_artists.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/app/models/user.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/Gemfile",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/migrate/20150730141828_create_playlists.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/migrate/20150730141808_create_songs.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/migrate/20150730141518_create_users.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d04/Adam_Driggers/tunr_app/db/migrate/20150730143403_create_join_table.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/controllers/appointments_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/patients/index.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/config/routes.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/db/migrate/20150729195434_create_appointments.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/patients/show.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/patients/new.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/patients/_form.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/views/patients/edit.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/db/seeds.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/models/patients/patient.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/app/models/patients/patients.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/healthcare/healthcare_app/db/migrate/20150729143717_create_patients.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d03/Adam_Driggers/hippy_starter/index.html",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d02/Adam_Driggers/david_ex",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d02/Adam_Driggers/fixitup_app/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d02/Adam_Driggers/ar_ex/ar.rb",
+		"/Users/driggers/gd/WEB/diya/diya_build/index.html",
+		"/Users/driggers/gd/WEB/diya/sass/base.scss",
+		"/Users/driggers/gd/WEB/diya/blog_roll.html",
+		"/Users/driggers/gd/WEB/diya/index.html",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/team_app/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/team_app/app/models/team.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/team_app/db/seeds.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/team_app/config/routes.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/team_app/db/migrate/20150727201503_create_teams.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/db/schema.rb",
+		"/Users/driggers/wdi/WDI_skywalker/resources/rails_cheetsheet.md",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/views/items/show.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/controllers/items_controller.rb",
+		"/Users/driggers/wdi/WDI_skywalker/resources/sublime_cheat_sheet.md",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/views/items/index.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/views/items/new.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/views/items/edit.html.erb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/db/seeds.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/app/models/item.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/Gemfile",
+		"/Users/driggers/wdi/WDI_skywalker/w08/d01/Adam_Driggers/todoly_app/db/migrate/20150727155650_create_items.rb",
+		"/Users/driggers/gd/WEB/diya/sass/single.scss",
+		"/Users/driggers/gd/WEB/diya/sass/styles.scss",
+		"/Users/driggers/gd/WEB/diya/single.scss",
+		"/Users/driggers/friendlyWager/db.js",
+		"/Users/driggers/friendlyWager/server.js",
+		"/Users/driggers/friendlyWager/seed.js",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/hw/Word.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/hangman.md",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/hw/Main.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/hw/Game.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/ex/play.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d04/Adam_Driggers/d04_hw_solution.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d04/Adam_Driggers/person.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d05/Adam_Driggers/ex/movies.rb",
+		"/Users/driggers/wdi/WDI_skywalker/w07/d04/Adam_Driggers/syntax.rb",
+		"/Users/driggers/friendlyWager/controllers/comments.js",
+		"/Users/driggers/friendlyWager/controllers/users.js",
+		"/Users/driggers/friendlyWager/controllers/wagers.js",
+		"/Users/driggers/friendlyWager/controllers/topics.js",
+		"/Users/driggers/friendlyWager/models/user.js",
+		"/Users/driggers/friendlyWager/models/Topic.js",
+		"/Users/driggers/friendlyWager/helpers.js",
+		"/Users/driggers/friendlyWager/public/css/styles.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"museum",
+			"@painting",
+			"painting",
+			"patient",
+			"birth_year",
+			"name",
+			"artist",
+			"painting",
+			"artist",
+			"%>",
+			"<%=",
+			"artist",
+			"artists",
+			"nav-single",
+			"Museums",
+			"artist",
+			"@artist",
+			"Artist",
+			"Artists",
+			"artist",
+			"@artist",
+			"Artist",
+			"Artists",
+			" resources :playlists do\n    member do\n      put 'add_song'\n      put 'remove_song'\n    end\n  end",
+			"title",
+			"birth_year",
+			"song_params",
+			"songs_path",
+			"@song",
+			"Song",
+			"Songs",
+			"b",
+			"patient",
+			"Patient",
+			"Patients",
+			"@patients",
+			"heme_item",
+			"team",
+			"image_tag",
+			"Item",
+			"sublime",
+			"*",
+			"title",
+			"occupation",
+			"city",
+			"age",
+			"name",
+			"return",
+			"return ",
+			"name",
+			"Topic",
+			"Comments",
+			"img",
+			"session",
+			"users",
+			"topics",
+			"value=",
+			"</",
+			"}",
+			")",
+			"//paintings",
+			"// paintings",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"artists",
+			"ARTISTS",
+			"0",
+			"1",
+			"0",
+			"th",
+			"2",
+			"subl",
+			"aliases",
+			"db",
+			"k",
+			"\"",
+			"	",
+			"INTEGER,",
+			"	",
+			" INTEGER,",
+			" ",
+			"   ",
+			" ",
+			"boolean",
+			"varchar",
+			"   ",
+			"-",
+			" - ",
+			"boolean",
+			"varchar",
+			"INTEGER",
+			"integer",
+			"   ",
+			"-",
+			"INTEGER",
+			"varchar",
+			"integer",
+			"-",
+			"goliath",
+			"chelsea",
+			"\\n",
+			"\"",
+			"\\n",
+			"\"",
+			"\". ",
+			".\n",
+			"\\n",
+			"\n",
+			"\\n",
+			"start",
+			"debugger",
+			"bust",
+			",",
+			":",
+			"debugger",
+			";\n",
+			"render",
+			"block",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Appointment",
+			"'",
+			"",
+			"\",\"",
+			"",
+			"'",
+			"",
+			" \\n ",
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/driggers/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.492973097178,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true
+}

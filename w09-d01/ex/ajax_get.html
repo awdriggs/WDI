@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ajax get</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+
+<body>
+  <p>bro</p>
+  <input type="checkbox" name="title" value="brooooo"/>
+  <script>
+  	$.ajax({
+  		url: "http://www.omdbapi.com/?t=vertigo&y=&plot=full&r=json"
+  	}).done(function(data) {
+  		console.log("we're done!");
+  		console.log(data)
+  	} );
+    
+    console.log("BRO!");
+  </script>
+</body>
+
+</html>

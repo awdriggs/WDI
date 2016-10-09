@@ -1,0 +1,10 @@
+<h2>Tamers</h2>
+<%= link_to 'New Tamer', new_lion_tamer_path %>
+
+<% @lion_tamers.each do |lion_tamer| %>
+	<hr>
+	<h3><%= link_to lion_tamer.name, lion_tamer %></h3>
+	<p>Experience: <%= lion_tamer.experience %></p>
+	<p>living: <%= lion_tamer.living %></p>
+	
+<% end %>

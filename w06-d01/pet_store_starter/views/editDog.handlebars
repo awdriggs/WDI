@@ -1,0 +1,12 @@
+<div id='container'>
+
+		<form action="/dogs/{{id}}" method="POST">
+			<input type="hidden" name="_method" value="PUT">
+			<input type='text' name='name' placeholder='name' value={{name}}>
+			<input type='text' name='adopted' placeholder='true or false' value={{adopted}}>
+			<input type='text' name='age' placeholder='age' value={{age}}>
+			<input type='text' name='fee' placeholder='adoption fee' value={{adoption_fee}}>
+			<button type="submit">Submit</button>
+		</form>
+
+</div>

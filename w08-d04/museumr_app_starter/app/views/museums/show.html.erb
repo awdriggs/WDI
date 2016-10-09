@@ -1,0 +1,18 @@
+<div class="single box">
+	<h2><%= @museum.name %></h2>
+	<%= image_tag( @museum.img_url )%>
+	<p><%= @museum.address %></p>
+	 <p><%= @museum.description %></p>
+	 <p><%= link_to 'Edit', edit_museum_path %></p>
+</div>
+<%= @museum.artists[0] %>
+
+<% @museum.artists.each do |artist| %>
+<div class="single box">
+	<h2><%= link_to artist.name, artist %></h2>
+  <%= link_to image_tag( artist.img_url ), artist %>
+  <p>b. <%= artist.birth_year %>, <%= artist.nationality %>  
+   </p>
+   <p><%= artist.description %></p>
+</div>
+<% end %>

@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Main</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<div id="search">
+		<div id="logo"></div>
+		<form action="/pokemons/searchByName" method="GET">
+			<input id="searchByName" type="text" name="searchName">
+			<button id="searchButton" type="submit">Search By Name</button>
+		</form>
+		<form action="/pokemons/searchByType" method="GET">
+			<input type="text" name="searchType">
+			<button type="submit">Search By Type</button>
+		</form>
+		<form action="/pokemons/random" method="GET">
+			<button type="submit">Random</button>
+		</form>
+	</div> <!-- end search -->
+	{{{body}}}
+</body>
+</html>

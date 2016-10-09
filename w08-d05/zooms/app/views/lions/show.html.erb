@@ -1,0 +1,56 @@
+<hr>
+<h2><%= @lion.name %></h2>
+<p>Birthdate: <%= @lion.birthdate %></p>
+<p>Weight: <%= @lion.weight %> lbs</p> 
+<p>Bio: <%= @lion.about %></p>
+<p>Health: <%= @lion.health %>
+<p>Health Notes: <%= @lion.health_notes%></p>
+<p><%= link_to 'Edit', edit_lion_path %></p>
+<hr>
+<!-- add stuff about tamers later -->
+<h2>Tamers</h2>
+
+
+<form action="/lions/<%= @lion.id %>/add_lion_tamer" method="post">
+  <input type="hidden" name="_method" value="put">
+  <select name="lion_tamer_id">
+    <% @lion_tamers.each do |lion_tamer| %>
+      <% unless @lion.lion_tamers.include? lion_tamer %>
+        <option value="<%= lion_tamer.id %>"><%= lion_tamer.name %></option>
+      <% end %>
+    <% end %>
+  </select>
+  <input type="submit" value="Add Lion Tamer">
+</form>
+<br>
+
+<form action="/lions/<%= @lion.id %>/remove_lion_tamer" method="post">
+  <input type="hidden" name="_method" value="put">
+  <select name="lion_tamer_id">
+    <% @lion_tamers.each do |lion_tamer| %>
+      <% if @lion.lion_tamers.include? lion_tamer %>
+        <option value="<%= lion_tamer.id %>"><%= lion_tamer.name %></option>
+      <% end %>
+    <% end %>
+  </select>
+  <input type="submit" value="Remove Tamer">
+</form>
+<br>
+
+<% @lion.lion_tamers.each do |lion_tamer| %>
+	<hr>
+	<p><%= link_to lion_tamer.name, lion_tamer_path(lion_tamer)%> | experience: <%= lion_tamer.experience %> | living?:<%= lion_tamer.living %></p>
+<% end %>
+
+<!-- Cat Town Display -->
+<hr>
+<h2>Cat Toys</h2>
+
+
+
+
+
+  <% @lion.cat_toys.each do |cat_toy| %>
+  <%= cat_toy.name %>
+  <% end %> 
+

@@ -1,0 +1,8 @@
+<h2>edit patient</h2>
+<%= form_for(@patient) do |f| %>
+	<%= f.text_field :name %>
+	<%= f.text_field :insured %>
+	<%= f.text_field :insurance_carrier %>
+	<%= f.text_field :age %>
+	<%= f.submit %>
+<% end %>

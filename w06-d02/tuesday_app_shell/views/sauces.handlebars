@@ -1,0 +1,22 @@
+<h1>Sauces</h1>
+<a href='/new-sauce'>New Sauce</a>
+<table>
+
+	<tr>
+		<th>name</th>
+		<th>price</th>
+		<th>manufacturer name</th>
+		<th>edit</th>
+		<th>delete</th>
+	</tr>
+
+	{{#each everything}}
+	<tr>
+		<td>{{this.sauce_name}}</td>	
+		<td>{{this.price}}</td>
+		<td>{{this.name}}</td>
+		<td><a href='/edit-sauce/{{id}}'>edit</a></td>
+		<td>delete</td>
+	</tr> 
+	{{/each}}
+</table>

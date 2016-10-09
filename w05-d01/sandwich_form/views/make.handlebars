@@ -1,0 +1,26 @@
+<form action="/show-sandwich" method="GET">
+	Bread:
+	<select name="bread">
+		<option value="wheat">wheat toast</option>
+		<option value="baguette" name="baguette">baguette</option>
+		<option value="brioche">brioche</option>
+		<option value="bagel">bagel</option>
+	</select>
+	Meats:
+	<select name="meat" multiple>
+		<option value="bologna">bologna</option>
+		<option value="turkey">turkey</option>
+		<option value="ham">ham</option>
+		<option value="beef">roast beef</option>
+	</select>
+	Cheese:
+	<select name="cheese" multiple>
+		<option value="cheddar">cheddar</option>
+		<option value="swiss">swiss</option>
+		<option value="provolone">provolone</option>
+		<option value="gouda">gouda</option>
+	</select>
+
+	<!-- you have to use a button! input type submit never works! -->
+	<button type="submit">Place Order</button>
+</form>

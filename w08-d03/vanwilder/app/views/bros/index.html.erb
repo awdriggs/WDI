@@ -1,0 +1,50 @@
+
+<h1>Listing bros</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Bro name</th>
+      <th>Age</th>
+      <th>Daily protein intake</th>
+      <th>Likes limp bizket</th>
+      <th>Lifts</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bros.each do |brother| %>
+      <tr>
+        <td><%= brother.name %></td>
+        <td><%= brother.bro_name %></td>
+        <td><%= brother.age %></td>
+        <td><%= brother.daily_protein_intake %></td>
+        <td><%= brother.likes_limp_bizkit %></td>
+        <td><%= brother.lifts %></td>
+        <td><%= link_to 'Click here', bro_path(brother.id) %></td>
+        <td><%= link_to 'Edit', edit_bro_path(brother) %></td>
+        <td><%= link_to 'Destroy', brother, method: :delete %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'new bro', new_bro_path %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

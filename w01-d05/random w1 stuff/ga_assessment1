@@ -1,0 +1,33 @@
+#Inside which HTML Element do we put the JavaScript?
+  <script>
+
+#Where is the correct place to insert JavaScript 
+   I have seen differing opinions on this. Some say the in the <head> section of an html document so that is ready once the page loads. But I think I remember that the prework said right before the closing body tag </body> near the end of the html document. I think the reasoning was that if the javascript fails the other parts of the page will at least load.
+
+#How do you write "Hello World!" in an alert box?
+    alert("Hellow World!");
+
+#How do you call a function named "myFunction"?
+    myFunction();
+
+#How do you add a comment in JavaScript?
+    // for single line commnent
+
+
+#How do you insert a comment on more than one line?
+     /*
+    	this allows for 
+    	multiple line comments
+	 */
+
+#Is JavaScript the same as Java?
+    No. Java was popular at the time that JS was coming out, so the creators wanted to ride that popularity.
+
+#How do you declare a JavaScript Variable?
+    var name = "adam";
+
+#Which operator is used to asign a value to a variable?
+    single equals sign (=) is used for assingments.
+
+#Is JavaScript Case Sensitive?
+	yes

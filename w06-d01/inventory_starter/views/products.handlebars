@@ -1,0 +1,17 @@
+<div id="container">
+	<h1><a href="/products/new">New Product</a></h1>
+	{{!-- MAKE DIVS FOR EACH PRODUCT look below to see how it should look like --}}
+	{{#each products}}
+		<div class = 'product'>
+			<h2>Product : {{product}}</h2>
+			<h4>Manufacturer : {{manufacturer}}</h4>
+			<h4># In Stock : {{inventory}}</h4>
+			<h4>Price : ${{price}}</h4>
+			<a href="/product/edit/{{id}}">Edit</a>
+			<form action="/products/{{id}}" method="POST">
+				<input type="hidden" name="_method" value="DELETE">
+				<input type="submit" value="delete">
+			</form>
+		</div>
+	{{/each}}
+</div>

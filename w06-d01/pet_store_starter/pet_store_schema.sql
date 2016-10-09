@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS cats;
+DROP TABLE IF EXISTS dogs;
+
+
+CREATE TABLE cats(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	adopted BOOLEAN,
+	age INTEGER,
+	adoption_fee INTEGER
+);
+
+CREATE TABLE dogs(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	adopted BOOLEAN,
+	age INTEGER,
+	adoption_fee INTEGER
+);
+

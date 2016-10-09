@@ -1,0 +1,10 @@
+<% @teams.each do |team| %>
+	<%= link_to image_tag( team.photo_url ), team %>
+	
+	
+	<h1><%= link_to team.name, team %></h1>
+	<h2><%= team.hometown %></h2>
+	<h2>World Series: <%= team.number_of_championships %></h2>
+	<hr>
+
+<% end %>

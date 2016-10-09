@@ -1,0 +1,11 @@
+<div id="container">
+	{{!-- CREATE A FORM THAT HAS A PRODUCT's INFO AND YOU CAN EDIT IT --}}
+	<form action="/products/{{id}}" method="POST">
+				<input type="hidden" name="_method" value="PUT">
+				Product: <input type="text" name="product" value="{{product}}">
+				Manufacturer: <input type="text" name="manufacturer" value="{{manufacturer}}">
+				Inventory: <input type="text" name="inventory" value="{{inventory}}">
+				Price: <input type="text" name="price" value="{{price}}">
+				<input type="submit" value="submit edits">
+	</form>
+</div>

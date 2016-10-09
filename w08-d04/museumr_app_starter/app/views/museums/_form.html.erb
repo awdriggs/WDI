@@ -1,0 +1,27 @@
+<%=	form_for(@painting) do |f| %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :img_url %><br>
+    <%= f.text_field :img_url %>
+  </div>
+
+  <div class="field">
+    <%= f.label :year_made %><br>
+    <%= f.text_field :year_made %>
+  </div>
+
+  <div class="field">
+    <%= f.label :artist_id %><br>
+    <%= f.select :artist_id, @artists.collect{|a| [ "#{a.name}", a.id ]}, { :selected => @painting.artist_id } %>
+  </div>
+	
+	<p><%= f.submit %></p>
+<% end %>
+
+
+

@@ -1,0 +1,18 @@
+<h1 style="text-align: center; clear: left">Welcome to the Artists Page</h1>
+{{#each artists}}
+	<div class="single box">
+		<h3><a href='/artists/{{id}}'>{{this.name}}</a></h3>
+
+		<a href="/artists/{{id}}">
+			<img src='{{img_url}}' alt="" height="400" width="400">
+		</a>
+
+		<p>{{description}}</p>
+		<p>{{birth_year}}</p>
+		<p>{{nationality}}</p>
+	</div>
+{{/each}}
+
+<div class="nav">
+	<a href="/artists/new">Add a new artist</a>
+</div>

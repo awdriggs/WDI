@@ -1,0 +1,17 @@
+<%=	form_for(@panther) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :claw_length %><br>
+    <%= f.number_field :claw_length, min: 0 %>
+  </div>	
+
+	<p><%= f.submit %></p>
+<% end %>
+
+
+

@@ -1,0 +1,9 @@
+<h1 id="home">Welcome to <%= @painting.title %>'s page</h1>
+
+<div class="single box">
+	<h3><%= @painting.title %></h3>
+	<%= image_tag(@painting.img_url, :class => "painting") %> <br>
+	<%= link_to @painting.artist.name, artist_path(@painting.artist) %>
+	<p><%= @painting.year_made %></p>
+	<%= link_to "Edit painting", edit_painting_path(@painting) %>
+</div>

@@ -1,0 +1,17 @@
+<div class="single box">
+  <h2><%= @painting.title %></h2>
+  <%= image_tag( @painting.img_url )%>
+  <p>c. <%= @painting.year_made %></p>
+   <p><%= @painting.artist.name %></p>
+   <p><%= link_to 'Edit', edit_painting_path %></p>
+</div>
+
+<div class="single box">
+  <h2><%= link_to @painting.artist.name, @painting.artist %></h2>
+  <%= link_to image_tag( @painting.artist.img_url ), @painting.artist %>
+  <p>b. <%= @painting.artist.birth_year %>, <%= @painting.artist.nationality %>  
+   </p>
+   <p><%= @painting.artist.description %></p>
+
+  
+</div>

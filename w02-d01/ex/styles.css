@@ -1,0 +1,32 @@
+#ipod_body {
+	position: absolute;
+	width: 360px;
+	height: 615px;
+	background-color: black;
+	border-radius: 25px;
+}
+
+#screen {
+	position: relative;
+	margin: 30px;
+	border-radius: 6px;
+	background-color: white;
+	border: 5px solid black;
+}
+
+#top_bar {
+	margin:0;
+	background-color: LightGrey;
+	font-family: "Myriad", sans-serif;
+
+}
+
+#top_bar h6 {
+	padding: 2px;
+}
+
+#battery {
+	width: 10%;
+	background-color: green;
+	
+}

@@ -1,0 +1,17 @@
+<h1>Manufacturer {{everything.0.name}}</h1>
+
+<h2>Sauces made by {{manufacturers.name}}</h2>
+<table>
+
+	<tr>
+		<th>name</th>
+		<th>price</th>
+	</tr>
+
+	{{#each everything}}
+	<tr>
+		<td>{{this.sauce_name}}</td>
+		<td>${{this.price}}</td>
+	</tr>
+	{{/each}}
+</table>

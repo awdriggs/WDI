@@ -1,0 +1,15 @@
+<%= form_for @artist do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %><br><br>
+
+	<%= f.label :img_url %>
+	<%= f.text_field :img_url %><br><br>
+
+	<%= f.label :nationality %>
+	<%= f.text_field :nationality %><br><br>
+
+	<%= f.label :genre, "Must be one of the following: Electronic, House, Jazz Indie, Hip Hop" %>
+	<%= f.text_field :genre %><br><br>
+	<%= f.submit%>
+
+<% end %>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>WhamterestApp</title>
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
+	</head>
+
+	<body>
+
+	  <header>
+	    <h1>WHAMterest</h1>
+	  </header>
+
+	  <div id='posts-container'>
+		</div>
+
+	  <div id='forms-container'>
+	    <h1>Add a New WHAMterest</h1>
+	    <div><label>Title</label><input type="text" name='title'></div><br>
+	    <div><label>Author</label><input type="text" name='author'></div><br>
+	    <div><label>Image</label><input type="text" name='image_url'></div><br>
+	    <div><label>Content</label><input type="text" name='content'></div><br>
+	    <div><label>Category</label><input type="text" name='category'></div><br>
+	    <button id='new-post'>WHAM It Up!</button>
+	  </div>
+	  
+	</body>
+
+</html>

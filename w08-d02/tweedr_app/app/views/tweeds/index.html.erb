@@ -1,0 +1,9 @@
+
+<% @tweeds.each do |tweed| %>
+	<div class="tweed">
+		<p class="author"><%= tweed.author %></p>
+		<%= link_to image_tag( tweed.image_url ), tweed %>
+		<%= tweed.content %>
+	</div>	
+<% end %>
+

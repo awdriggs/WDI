@@ -1,0 +1,8 @@
+<h2>panthers</h2>
+<%= link_to 'New Panther', new_panther_path %>
+
+<% @panthers.each do |panther| %>
+	<hr>
+	<h3><%= link_to panther.name, panther %></h3>
+	<p>Claw Length: <%= panther.claw_length %></p>
+<% end %>

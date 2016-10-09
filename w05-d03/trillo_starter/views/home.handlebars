@@ -1,0 +1,33 @@
+<div id="todo-column" class="column">
+  <h2 class="column-heading">To Do</h2>
+  <ul class="card-list">
+    {{#each cards}}
+    	{{#unless done}}
+    		<li class='card'>
+    			<p>{{this.task}}</p>
+    			<form action="/{{@key}}" method="POST">
+    				<input name ="_method" type="hidden" value ="PUT">
+    				<button class ="card-button" type="submit">done</button>
+    			</form>
+    		</li>
+  		{{/unless}}
+  	{{/each}}
+  </ul>
+</div>
+
+<div id="done-column" class="column">
+  <h2 class="column-heading">Done</h2>
+  <ul class="card-list">
+    {{#each cards}}
+    	{{#if done}}
+    		<li class='card'>
+    			<p>{{this.task}}</p>
+    			<form action="/{{@key}}" method="POST">
+    				<input name ="_method" type="hidden" value ="DELETE">
+    				<button class ="card-button" type="submit">delete</button>
+    			</form>
+    		</li>
+  		{{/if}}
+  	{{/each}}
+  </ul>
+</div>

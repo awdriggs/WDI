@@ -1,0 +1,6 @@
+<h1>Description: <%= @item.description %></h1>
+<h1>Completed: <%= @item.completed %></h1>
+
+<%= link_to 'EDIT', edit_item_path %>
+
+<%= link_to 'DELETE', @item, :method => 'delete' %>

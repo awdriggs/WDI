@@ -1,0 +1,10 @@
+<%=image_tag( @team.photo_url )%>
+	<h1><%= @team.name %></h1>
+	<h2><%= @team.hometown %></h2>
+	<h2>World Series: <%= @team.number_of_championships %></h2>
+
+<%= link_to 'EDIT', edit_team_path %>
+
+<%= link_to 'DELETE', @team, :method => 'delete' %>
+
+<%= link_to "TEAMS", teams_path %>

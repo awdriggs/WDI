@@ -1,0 +1,37 @@
+<% link_to 'edit', edit_bro_path %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bro.name %>
+</p>
+
+<p>
+  <strong>Bro name:</strong>
+  <%= @bro.bro_name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @bro.age %>
+</p>
+
+<p>
+  <strong>Daily protein intake:</strong>
+  <%= @bro.daily_protein_intake %>
+</p>
+
+<p>
+  <strong>Likes limp bizket:</strong>
+  <%= @bro.likes_limp_bizkit %>
+</p>
+
+<p>
+  <strong>Lifts:</strong>
+  <%= @bro.lifts %>
+</p>
+
+<h2>Pad <%= @bro.name %> owns</h2>
+<%= link_to @bro.pad.name, @bro.pad %>
+
+<%= link_to 'Edit', edit_bro_path(@bro) %> |
+<%= link_to 'Back', bros_path %>

@@ -1,0 +1,8 @@
+<h1>Edit Manufacturer ({{id}})</h1>
+
+<form action="/update-manufacturer/{{id}}" method="POST">
+	<input type="hidden" name="_method" value="PUT">
+	<input type="hidden" name="id" value="{{id}}">
+	<input type="text" name="name" value="{{name}}"><br>
+	<input type="submit" value="update">
+</form>

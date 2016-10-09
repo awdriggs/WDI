@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MuseumrApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+	<header>
+		<h1>Museum App</h1>
+	</header>
+
+	<nav class="nav">
+		<%= link_to "Home", home_path %>
+		<%= link_to "Artists", artists_path %>
+		<%= link_to "Museums", museums_path %>
+		<%= link_to "Paintings", paintings_path %>
+	</nav>
+
+	<%= yield %>
+
+</body>
+
+</html>

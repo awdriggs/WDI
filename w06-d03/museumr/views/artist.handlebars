@@ -1,0 +1,26 @@
+<div class="single box" style="clear: left; text-align: center;">
+	<h3>
+		<a href='/artists/{{artist.id}}'>{{artist.name}}</a>
+	</h3>
+
+	<a href="/artists/{{artist.id}}">
+		<img src="{{artist.img_url}}"  width='400' height='400'>
+	</a>
+	<p>{{artist.description}}</p>
+	<p>{{artist.birth_year}}</p>
+	<p>{{aritst.nationality}}</p>
+
+	<a href="/artists/edit/{{artist.id}}" style="text-decoration: unerline;">
+		<strong>Edit Artist</strong>
+	</a>
+</div>
+
+{{#each paintings}}
+	<div class="single box">
+		<p>{{title}}</p>
+		<p>{{year_made}}</p>
+		<a href="/paintings/{{id}}">
+			<img src="{{img_url}}" width='400' height='400'>
+		</a>
+	</div>
+{{/each}}

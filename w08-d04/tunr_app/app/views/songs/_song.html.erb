@@ -1,0 +1,22 @@
+<div class="single-song">
+	<h2><%= song.title %></h2>
+	<h4><%= link_to song.artist.name, artist_path(song.artist) %></h4>
+	
+	<img src="<%=song.artwork%>">
+
+	<% if player %>
+	 <audio controls="play" style="width: 100">
+		<source src='<%= song.preview_url %>'></source>
+	</audio>
+	<% end %>
+
+	<p>
+		<% if edit %>
+			<%= link_to "edit", edit_song_path(song) %>
+		<% elsif playlist %>
+			<%= link_to "Remove Song", remove_song_playlist_path(id: playlist.id, song_id: song.id), method: :put %>
+		<% else %>
+			<%= link_to "View", song_path(song) %>
+		<% end %>
+	</p>
+</div>

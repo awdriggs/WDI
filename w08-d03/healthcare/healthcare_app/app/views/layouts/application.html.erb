@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HealthcareApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>Kewl Healthcare</h1>
+<p> <%= link_to 'All Patients', patients_path %> |
+<%= link_to 'All Appointments', appointments_path %> </p>
+
+
+<%= yield %>
+
+
+<footer>
+	
+	<p><%= link_to 'New Appointment', new_appointment_path %> | <%= link_to 'New Appointment', new_appointment_path %></p>
+	
+</footer>
+
+</body>
+</html>

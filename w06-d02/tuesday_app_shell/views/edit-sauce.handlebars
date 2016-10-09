@@ -1,0 +1,10 @@
+<h1>Edit Sauce</h1>
+
+<form action="/update-sauce/{{id}}" method="POST">
+	<input type="hidden" name="_method" value="PUT">
+	<input type="hidden" name="id" value="{{id}}">
+	<input type="text" name="name" value="{{sauce_name}}"><br>
+	<input type="text" name="price" value="{{price}}"><br>
+	<input type="submit" value="update">
+</form>
+

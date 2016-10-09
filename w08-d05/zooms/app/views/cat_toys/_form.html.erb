@@ -1,0 +1,18 @@
+<%=	form_for(@cat_toy) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+
+  <select name="toyable">
+    <% @cats.each do |cat| %>
+      
+        <option value="<%=cat.class.name %>, <%= cat.id %>"><%= cat.name %></option>
+      
+    <% end %>
+  </select>
+
+
+  <p><%= f.submit %></p>
+<% end %>

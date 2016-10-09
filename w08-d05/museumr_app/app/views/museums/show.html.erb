@@ -1,0 +1,19 @@
+<h1 id="home">Welcome to <%= @museum.name %></h1>
+
+<div class="single box">
+		<h3><%= @museum.name %></h3>
+		<%= image_tag(@museum.img_url, class: 'painting') %>
+		<p><%= @museum.description %></p>
+		<p><%= @museum.address %></p><br><br>
+		<%= link_to "Edit museum", edit_museum_path(@museum) %>
+</div>
+
+<% @museum.artists.each do |artist| %>
+	<div class="single box">
+		<h3><%= link_to artist.name, artist_path(artist) %></h3>
+		<%= link_to image_tag(artist.img_url), artist_path(artist) %>
+		<p><%= artist.description %></p>
+		<p><%= artist.birth_year %></p>
+		<p><%= artist.nationality %></p>
+	</div>
+<% end %>

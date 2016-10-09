@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  margin: 0px; }
+
+.sun {
+  width: 1300px;
+  height: 1300px;
+  border-radius: 50%;
+  background-color: yellow; }
+
+.earth {
+  background-color: blue;
+  height: 1%;
+  width: 1%;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */

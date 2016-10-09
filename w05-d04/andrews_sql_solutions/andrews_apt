@@ -1,0 +1,27 @@
+-- reality markdown
+-- The average square footage of all offices.
+SELECT AVG(sq_ft) FROM offices;
+
+-- The total number of apartments.
+SELECT COUNT(id) FROM apartments;
+
+-- The apartments where there is no tenant
+SELECT COUNT(id) FROM apartments WHERE occupied = FALSE;
+
+-- The names of all of the companies
+SELECT company FROM offices;
+
+-- The number of cubicles and bathrooms in the 3rd office
+SELECT cubicles, bathrooms FROM offices WHERE id = 3;
+
+-- The storefronts that have kitchens
+SELECT id, occupied, price, kitchen, sq_ft, owner, outdoor_seating FROM store_fronts WHERE kitchen = TRUE;
+
+-- The storefront with the highest square footage and outdoor seating
+SELECT id, occupied, price, kitchen, sq_ft, owner, outdoor_seating  FROM store_fronts WHERE sq_ft = (SELECT MAX(sq_ft) FROM store_fronts) and outdoor_seating = TRUE;
+
+-- The office with the lowest number of cubicles
+SELECT id, office_number, floors, sq_ft, cubicles, bathrooms, address, company, occupied, price FROM offices WHERE cubicles = (SELECT MIN(cubicles) FROM offices);
+
+-- The office with the most cubicles and bathrooms
+SELECT id, office_number, floors, sq_ft, cubicles, bathrooms, address, company, occupied, price FROM offices WHERE (cubicles = (SELECT MAX(cubicles) FROM offices)) and (bathrooms = (SELECT MAX(bathrooms)FROM offices));

@@ -1,0 +1,61 @@
+.outer {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    -webkit-perspective: 200px; /* Chrome, Safari, Opera  */
+    perspective: 200px;
+}
+
+
+.scroll-up {
+ height: 500px; 
+ width: 500px; 
+ overflow: hidden;
+ position: absolute;
+ background: yellow;
+ color: orange;
+ border: 1px solid orange;
+ -webkit-transform: rotateX(45deg); /* Chrome, Safari, Opera  */
+    transform: rotateX(45deg);
+}
+.scroll-up p {
+  font-size: 3rem;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);  
+ transform:translateY(100%);
+ /* Apply animation to this element */  
+ -moz-animation: scroll-up 10s linear infinite;
+ -webkit-animation: scroll-up 10s linear infinite;
+ animation: scroll-up 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%);     
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}

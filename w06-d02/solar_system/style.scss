@@ -1,0 +1,24 @@
+@mixin circle($size){
+	width:$size;
+	height:$size;
+	border-radius:50%
+}
+
+body{
+	background-color: black;
+	margin: 0px;
+
+}
+
+.sun{
+	@include circle(1300px);
+	background-color: yellow;
+}
+
+.earth{
+	background-color: blue;
+	
+	height: 1%;
+	width:1%;
+	border-radius: 50%
+}

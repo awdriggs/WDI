@@ -1,0 +1,4 @@
+<h3><%= @cat_toy.name%></h3>
+<p>Owner: <%= link_to @cat_toy.toyable.name, "/#{@cat_toy.toyable_type.downcase}s/#{@cat_toy.toyable.id}" %></p>
+<p>Type: <%= @cat_toy.toyable_type %></p> 
+<%= link_to 'Edit', edit_cat_toy_path %></p>

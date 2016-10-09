@@ -1,0 +1,11 @@
+<div id="container">
+	{{!-- CREATE A FORM THAT HAS AN EMPLOYEES INFO AND YOU CAN EDIT IT --}}
+	<form action="/employees/{{id}}" method="POST">
+				<input type="hidden" name="_method" value="PUT">
+				First Name: <input type="text" name="firstname" value="{{first_name}}">
+				Last Name: <input type="text" name="lastname" value ="{{lastname}}">
+				Hours: <input type="text" name="hours" value="{{hours}}">
+				Salary: <input type="text" name="salary" value="{{salary}}">
+				<input type="submit" value="edit employee">
+	</form>
+</div>

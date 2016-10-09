@@ -1,0 +1,33 @@
+<%=	form_for(@artist) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :img_url %><br>
+    <%= f.text_field :img_url %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %><br>
+ 	<%= f.text_field :description %>
+
+  </div>
+
+  <div class="field">
+    <%= f.label :birth_year %><br>
+    <%= f.text_field :birth_year %>
+  </div>
+
+  <div class="field">
+    <%= f.label :nationality %><br>
+    <%= f.text_field :nationality %>
+  </div>
+	
+	<p><%= f.submit %></p>
+<% end %>
+
+
+

@@ -1,0 +1,13 @@
+<div class="nav">
+<%= link_to 'New Artist', new_artist_path %>
+</div>
+
+<% @artists.each do |artist| %>
+<div class="single box">
+	<h2><%= link_to artist.name, artist %></h2>
+	<%= link_to image_tag( artist.img_url ), artist %>
+	<p>b. <%= artist.birth_year %>, <%= artist.nationality %>  
+	 </p>
+	 <p><%= artist.description %></p>
+</div>
+<% end %>

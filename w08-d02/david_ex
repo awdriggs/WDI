@@ -1,0 +1,37 @@
+Your schema is all messed up. Fix it using migrations.
+PLEASE USE A SEPERATE MIGRATION FOR EACH THING YOU USE, GET THOSE REPS IN!
+Stick to the naming convention as close as possible
+Fix all spelling mistakes that are in the columns and tables
+Make sure the tables have all the columns, and remove any uneccesary ones
+Make sure all the columns have the correct data types, if the messed up schema has text instead of VARCHAR(255) then convert text to the right data type
+Add the correct relation
+Seed the database and make sure everything is good
+
+
+The schema should look like the schema below (t.timestamps create_at and update_at are ok)
+
+
+change_column :table_name, :column_name,  :date
+
+class RenameOldTableToNewTable< ActiveRecord::Migration
+  def change
+    rename_table :old_table_name, :new_table_name
+  end 
+end
+
+CREATE TABLE artists(
+  id SERIAL PRIMARY KEY, 
+  name VARCHAR(255),
+  img_url TEXT, 
+  nationality VARCHAR(255),
+  birth_year VARCHAR(255),
+  description TEXT
+);
+
+CREATE TABLE paintings(
+  id SERIAL PRIMARY KEY, 
+  title VARCHAR(255),
+  img_url TEXT,
+  year_made VARCHAR(255)
+  artist_id INTEGER references artists
+  );

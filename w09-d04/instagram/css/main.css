@@ -1,0 +1,62 @@
+body {
+	background-image: url('../local-screenshot.png');
+	background-repeat: no-repeat;
+	margin: 0;
+	font-family: helvetica;
+}
+
+header{
+
+	height: 260px;
+	width: 100%;
+	/*background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;*/
+}
+
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: -191px;
+}
+
+#left-photo{
+	background-image: url('../images/phones.png');
+	background-repeat: no-repeat;
+	width: 318px;
+	height: 512px;
+	float: left;
+	
+	margin-right: 60px;
+
+}
+
+#logo{
+	background-image: url('../images/brand.png');
+	background-repeat: no-repeat;
+	width: 314px;
+	height: 78px;
+	float: left;
+	margin-top: 20px
+}
+
+#frame{
+	/*background-image: url('../images/frame.png');
+	background-repeat: no-repeat;*/
+	height: 530px;
+	width: 520px;
+	margin-top:20px;
+	float: left;
+	/*padding: 50px;*/
+
+}
+
+footer{
+	clear: both;
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.content{
+	margin: 50px;
+}

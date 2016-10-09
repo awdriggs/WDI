@@ -1,0 +1,42 @@
+<hr>
+	<h3><%= link_to @lion_tamer.name, @lion_tamer %></h3>
+	<p>Experience: <%= @lion_tamer.experience %></p>
+	<p>living: <%= @lion_tamer.living %></p>
+<p><%= link_to 'Edit', edit_lion_tamer_path %></p>
+
+<!-- add business with the lions -->
+<h4>Lions</h4>
+<form action="/lion_tamers/<%= @lion_tamer.id %>/add_lion" method="post">
+  <input type="hidden" name="_method" value="put">
+  <select name="lion_id">
+    <% @lions.each do |lion| %>
+      <% unless @lion_tamer.lions.include? lion %>
+        <option value="<%= lion.id %>"><%= lion.name %></option>
+      <% end %>
+    <% end %>
+  </select>
+  <input type="submit" value="Add Lion">
+</form>
+<br>
+
+<form action="/lion_tamers/<%= @lion_tamer.id %>/remove_lion" method="post">
+  <input type="hidden" name="_method" value="put">
+  <select name="lion_id">
+    <% @lions.each do |lion| %>
+      <% if @lion_tamer.lions.include? lion %>
+        <option value="<%= lion.id %>"><%= lion.name %></option>
+      <% end %>
+    <% end %>
+  </select>
+  <input type="submit" value="Remove Lion">
+</form>
+<br>
+
+<% @lion_tamer.lions.each do |lion| %>
+	<hr>
+	<p><%= link_to lion.name, lion_path(lion) %> | Health: <%=lion.health %> </p>
+<% end %>
+
+
+
+

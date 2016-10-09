@@ -1,0 +1,31 @@
+<form action="/artists/{{id}}" method="POST" style="clear: left; text-align: center;" id="edit">
+	<input type="hidden" name="_method" value="PUT">
+	Name<br>
+	<label for="name">
+		<input type="text" name="name" value="{{name}}">
+	</label><br>
+	Image URL<br>
+	<label for="img_url">
+		<input type="text" name="img_url" value="{{img_url}}">
+	</label><br>
+	Nationality<br>
+	<label for="nationality">
+		<input type="text" name="nationality" value="{{nationality}}">
+	</label><br>
+	Birth Year<br>
+	<label for="birth_year">
+		<input type="text" name="birth_year" value="{{birth_year}}">
+	</label><br>
+	Description
+	<br><label for="description">
+		<textarea name="description" form="edit" rows="4" cols="50">{{description}}</textarea>
+	</label><br>
+	<input type="submit" value="Submit">
+</form>
+
+<br>
+
+<form action="/artists/{{id}}" method="POST" style="clear: left; text-align: center;">
+	<input type="hidden" name="_method" value="DELETE">
+	<button type="submit">DELETE ARTIST</button>
+</form>

@@ -1,0 +1,32 @@
+
+<%= form_for(@bro) do |f| %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :bro_name %><br>
+    <%= f.text_field :bro_name %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :daily_protein_intake %><br>
+    <%= f.number_field :daily_protein_intake %>
+  </div>
+  <div class="field">
+    <%= f.label :likes_limp_bizkit %><br>
+    <%= f.check_box :likes_limp_bizkit %>
+  </div>
+  <div class="field">
+    <%= f.label :lifts %><br>
+    <%= f.check_box :lifts %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

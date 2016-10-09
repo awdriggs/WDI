@@ -1,0 +1,30 @@
+
+{{#each list}}
+<a href="/items/{{this.id}}">
+  {{#if completed}}
+    <section class='todo-item done'>
+        <p class='description'>{{this.task}}</p>
+    <div id="actions">
+      <form action="/undone/{{this.id}}" method="POST">
+        <input name ="_method" type="hidden" value="PUT">
+        <button type="submit">Mark Not Done</button>
+      </form>
+  {{else}}
+    <section class='todo-item'>
+        <p class='description'>{{this.task}}</p>
+    <div id="actions">
+      <form action="/done/{{this.id}}" method="POST">
+        <input name ="_method" type="hidden" value="PUT">
+        <button type="submit">Mark Done</button>
+      </form>
+  {{/if}}
+  
+      <form action="/items/{{this.id}}" method="POST">
+        <input name ="_method" type="hidden" value="DELETE">
+        <button type="submit">Delete</button>
+      </form>
+    </actions>
+ </section>
+</a>
+{{/each}}
+

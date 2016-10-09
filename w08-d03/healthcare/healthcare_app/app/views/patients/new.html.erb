@@ -1,0 +1,8 @@
+<h2>New patient</h2>
+<%= form_for(@patient) do |f| %>
+	<p>Name: <%= f.text_field :name %></p>
+	<p>Insured? (true or false) : <%= f.text_field :insured %></p>
+	<p>Insurance Carrier: <%= f.text_field :insurance_carrier %></p>
+	<p>Age: <%= f.text_field :age %></p>
+	<%= f.submit %>
+<% end %>

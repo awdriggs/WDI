@@ -1,0 +1,7 @@
+<%= form_for(@appointment) do |f| %>
+	<p>Doctor: <%= f.text_field :doctor %></p>
+	<p>Time: <%= f.datetime_select :datetime %>
+	<p>Patient <%= f.select :patient_id, @patients.collect{|p| [ "#{p.name}", p.id ]}, { :selected => @appointment.patient_id } %>
+		<%= f.submit %>
+	
+<% end %>

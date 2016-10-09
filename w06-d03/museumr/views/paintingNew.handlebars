@@ -1,0 +1,21 @@
+<form action="/paintings" method="POST" style="clear: left; text-align: center;" id="edit">
+	
+	Title<br>
+	<label for="title">
+		<input type="text" name="title">
+	</label><br>
+	Image URL<br>
+	<label for="img_url">
+		<input type="text" name="img_url">
+	</label><br>
+	Year Made<br>
+	<label for="nationality">
+		<input type="text" name="year_made">
+	</label><br>
+	<select name="artist_id">
+		{{#each artists}}
+		<option value="{{this.id}}">{{this.name}}</option>
+		{{/each}}
+	</select><br>
+	<input type="submit" value="Submit">
+</form>

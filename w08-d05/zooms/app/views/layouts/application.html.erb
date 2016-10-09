@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zooms</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>ZooMS</h1>
+	<div class="nav">
+		<%= link_to 'Lions', lions_path %>
+		<%= link_to 'Tamers', lion_tamers_path %>
+		<%= link_to 'Panthers', panthers_path %>
+		<%= link_to 'Cat Toys', cat_toys_path %>
+	</div>
+
+<%= yield %>
+
+</body>
+</html>

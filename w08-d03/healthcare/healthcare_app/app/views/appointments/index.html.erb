@@ -1,0 +1,15 @@
+<h2>Appointments</h2>
+
+<hr>
+<% @appointments.each do |appointment|  %>
+	<h2><%= link_to appointment.patient.name, patient_path(appointment.patient_id) %></h2>
+	Date/Time: <%= appointment.datetime %>
+	With: <%= appointment.doctor %>
+
+	<%= link_to 'Edit', edit_appointment_path(appointment.id) %>
+
+	<%= link_to 'DELETE', appointment, :method => 'delete' %>
+	
+<% end %>
+
+<hr>

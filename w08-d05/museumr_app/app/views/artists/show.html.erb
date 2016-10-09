@@ -1,0 +1,37 @@
+<h1 id="home">Welcome to <%= @artist.name %>'s page</h1>
+
+<div class="single box">
+	<h3>
+		<%= @artist.name %>
+	</h3>
+	<%= image_tag(@artist.img_url) %>
+	<p>
+		<%= @artist.description %>
+	</p>
+	<p>
+		<%= @artist.birth_year %>
+	</p>
+	<p>
+		<%= @artist.nationality %>
+	</p>
+
+	<% @artist.museums.each do |museum| %>
+		<%= link_to museum.name, museum_path(museum) %><br>
+	<% end %>
+
+	<br>
+	<br>
+
+	<%= link_to "Edit Artist", edit_artist_path(@artist) %>
+
+</div>
+
+<% @artist.paintings.each do |painting| %>
+	<div class="single box">
+		<p>
+			<%= painting.year_made %>
+		</p>
+		<%= link_to image_tag(painting.img_url, :class => "painting"), painting_path(painting) %> <br>
+		<p><%= painting.title %></p>
+	</div>
+<% end %>

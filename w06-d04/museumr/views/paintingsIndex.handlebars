@@ -1,0 +1,14 @@
+{{#each paintings}}
+	<div class="single box">
+		<p>{{title}}</p>
+		<p>{{year_made}}</p>
+		<a href="/paintings/{{id}}">
+			<img src="{{img_url}}" width='400' height='400'>
+		</a>
+		<p><a href="/artists/{{artist_id}}">{{name}}</a></p>
+	</div>
+{{/each}}
+
+<div class="nav">
+	<a href="/paintings/new">Add a new painting</a>
+</div>

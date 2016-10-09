@@ -1,0 +1,44 @@
+html {
+ font-family: 'Playfair Display SC';
+ font-style: italic;
+}
+body {
+  margin: 0;
+  text-align: center;
+}
+h1{
+  color: #CC3F0C;
+  font-size: 5em;
+  margin-top:30px;
+  text-align:center;
+}
+#board{
+  margin:50px auto 20px auto;
+  width:360px;
+}
+.cell{
+  display: inline-block;
+    line-height: 1em;
+  height:200px;
+  width:200px;
+  margin:10px;
+  font-size:10em;
+  color: #CC3F0C;
+  border-radius: 25px;
+  border: 5px solid #A6A2A2;
+}
+
+.clicked{
+  border: 5px solid #CC3F0C;
+}
+
+#wrapper {
+  width: 700px;
+  margin: 0 auto;
+  
+}
+
+p {
+  padding: 10px;
+}
+

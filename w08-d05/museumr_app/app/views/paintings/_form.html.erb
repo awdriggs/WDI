@@ -1,0 +1,27 @@
+<%= form_for @painting do |f| %>
+
+	<%= f.label :title %><br>
+	<%= f.text_field :title %><br><br>
+
+	<%= f.label :img_url %><br>
+	<%= f.text_field :img_url %><br><br>
+
+	<%= f.label :year_made %><br>
+	<%= f.text_field :year_made %><br><br>
+
+	<%= f.label :artist_id %><br>
+	<%= collection_select(:painting, :artist_id, @artists, :id, :name) %><br><br>
+
+	<%= f.submit %>
+
+<% end %>
+
+<br>
+<br>
+
+<% if edit %>
+	<%= form_for @painting, method: 'delete' do |f| %>
+		<%= f.submit "Delete Painting" %>
+	<% end %>
+<% end %>
+

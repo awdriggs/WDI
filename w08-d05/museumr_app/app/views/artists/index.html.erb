@@ -1,0 +1,23 @@
+<h1 id="home">Welcome to the artists page</h1>
+
+<% @artists.each do |artist| %>
+	<div class="single box">
+		<h3>
+			<%= link_to artist.name, artist_path(artist) %>
+		</h3>
+		<%= link_to image_tag(artist.img_url), artist_path(artist) %>
+		<p>
+			<%= artist.description %>
+		</p>
+		<p>
+			<%= artist.birth_year %>
+		</p>
+		<p>
+			<%= artist.nationality %>
+		</p>
+	</div>
+<% end %>
+
+<div class="nav">
+	<%= link_to "Add a new artist", new_artist_path %>
+</div>

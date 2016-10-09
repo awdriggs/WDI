@@ -1,0 +1,14 @@
+<h2>Patients</h2>
+<hr>
+<% @patients.each do |patient|  %>
+	<h2><%= link_to patient.name, patient %></h2>
+	Insured: <%= patient.insured %>
+	Carrier: <%= patient.insurance_carrier %>
+	Age: <%= patient.age %>
+	<%= link_to 'Edit', edit_patient_path(patient.id) %>
+
+	<%= link_to 'DELETE', patient, :method => 'delete' %>
+	
+<% end %>
+
+<hr>

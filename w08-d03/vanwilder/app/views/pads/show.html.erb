@@ -1,0 +1,12 @@
+<% link_to 'edit', edit_pad_path %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pad.name %>
+</p>
+
+<% broo = @pad.bro %>
+<%= link_to broo.name, broo %>
+
+<%= link_to 'Edit', edit_pad_path(@pad) %> |
+<%= link_to 'Back', pads_path %>

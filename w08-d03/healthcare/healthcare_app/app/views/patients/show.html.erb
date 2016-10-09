@@ -1,0 +1,13 @@
+<h2><%= @patient.name %></h2>
+
+<p>Insured: <%= @patient.insured %></p>
+<p>Carrier: <%= @patient.insurance_carrier %></p>
+<p>Age: <%= @patient.age %></p>
+<p><%= link_to 'Edit Patient', edit_patient_path %></p>
+<hr>
+<h3>Appointment History</h3>
+
+<% @patient.appointments.each do |appointment| %>
+	<p><%= appointment.doctor %></p>
+	<p><%= appointment.datetime %></p>
+<% end %>

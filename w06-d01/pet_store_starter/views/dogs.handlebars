@@ -1,0 +1,18 @@
+<div id="container">
+	<a href='/dogs/new'>New Dog</a>
+	{{#each dogs}}
+		<div class="dog">
+			<h2>{{name}}</h2>
+			<p>Adopted: {{adopted}}</p>
+			<p>{{age}} years old</p>
+			<p>${{adoption_fee}}</p>
+
+			<a href="dogs/edit/{{id}}">Edit</a>
+
+			<form action="dogs/{{id}}" method="POST" class='delete'>
+				<input type="hidden" name="_method" value="DELETE">
+				<button type="submit">Delete</button>
+			</form>
+		</div>
+	{{/each}}
+</div>
